@@ -1,0 +1,115 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+    }
+
+    header {
+        padding: 15px;
+        background-color: dodgerblue;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: end;
+        gap: 30px;
+
+
+    }
+
+    nav li {
+        list-style-type: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .text h1 {
+        font-size: 70px
+    }
+
+    .text h2 {
+        color: dodgerblue;
+        font-size: 2em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        border-radius: 15px;
+    }
+
+    section {
+        height: 100vh;
+
+    }
+
+    .main-content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sec-img {
+        width: 100%;
+        max-width: 500rem;
+
+    }
+
+    .about {
+        margin-top: 20;
+    }
+
+    .about-content {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    p {
+        max-width: 500px;
+    }
+
+    .contact {
+        height: 50vh;
+        background-color: dodgerblue;
+    }
+
+    .contact-text {
+        justify-content: center;
+    }
+
+    @media (max-width:480px) {
+        .sec-img {
+            display: none;
+        }
+
+        .main-content {
+            margin-top: 50px;
+            display: block;
+            justify-content: space-around;
+        }
+
+        .text h1 {
+            font-size: 40px
+        }
+
+        .text h2 {
+            color: dodgerblue;
+            font-size: 2em;
+            margin: 2px;
+        }
+
+        nav ul {
+            display: block;
+        }
+    }
